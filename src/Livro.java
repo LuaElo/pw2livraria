@@ -19,7 +19,7 @@ public class Livro {
         System.out.println("Páginas: " + paginas);
         System.out.println("Autor: " + autor);
         if (temEditora())
-            System.out.println("Editora " + editora.nome);
+            System.out.println("Editora: " + editora.nome);
         System.out.println("-------");
     }
 
