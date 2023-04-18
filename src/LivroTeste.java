@@ -25,6 +25,7 @@ public class LivroTeste {
         // editora1.nome = "Erika";
         editora1.email= "edErika@erika.com.br";
         meuLivro.editora = editora2;
+        livroFavorito.tipoCapa = TipoCapaEnum.PERSONALIZADA;
 
 
         livroFavorito.aplicarDesconto(0.25);
