@@ -17,11 +17,12 @@ public class LivroTeste {
 
         meuLivro.exibirDados();
 
-        Livro livroFavorito = new Livro("Dan Brown", 9.99);
+        LivroDigital livroFavorito = new LivroDigital("Dan Brown", 9.99);
         livroFavorito.setNome("O Código Da Vinci");
         livroFavorito.setResumo("bla bla bla bla bla");
         livroFavorito.setPaginas( 500);
         livroFavorito.setAutor("Dan Brown");
+        livroFavorito.setMarcaDAgua("email@teste.com");
         Editora editora2 = new Editora("Editora Erika");
         // editora1.nome = "Erika";
         editora1.email= "edErika@erika.com.br";
